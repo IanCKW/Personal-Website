@@ -27,6 +27,7 @@ header{
   background:url('showcase.jpg') no-repeat bottom;
   background-size: cover;
   background-position: 0% -10%;
+  position:relative;
 }
 
 header a{
@@ -68,7 +69,7 @@ header li{
 #showcase p,#showcase h1{
   font-weight: normal;
   padding:0;
-  margin:0; 
+  margin:0;
 
 }
 
@@ -77,12 +78,21 @@ header li{
 	letter-spacing: 0.4em;
 	padding-bottom: 10px;
 	font-weight: lighter;
-
 }
 #showcase p{
 	font: 20px Helvetica,sans-serif;
 	letter-spacing: 0.20em;
 	font-weight: lighter;
+}
+
+#more-details{
+  font: 40px Helvetica,sans-serif;
+	letter-spacing: 0.4em;
+	font-weight: lighter;
+  color: white;
+  position:absolute;
+  bottom: .5em;
+  right: 50%;
 }
 
 
@@ -92,7 +102,7 @@ header li{
 	color: white;
 	height: 105vh;
 	font-weight: lighter;
-} 
+}
 
 #about .container{
 	width:80%;
@@ -153,7 +163,7 @@ footer{
 	#about{
 	height: 150vh;
 	font-weight: lighter;
-	} 
+	}
 
 	header{
 	  background:url('showcase.jpg') no-repeat bottom;
@@ -161,15 +171,3 @@ footer{
 	  background-position: 50% -10%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
